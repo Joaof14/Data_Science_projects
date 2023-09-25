@@ -23,8 +23,14 @@ class Network:
         for w,b in self.weights, self.biases:
             a = ativFunc(np.dot(a,w) + b)
         return a
+    
+    def sgd(self):
+        pass
 
+    def backprop(self):
+        pass
 
+    
 
 
 
