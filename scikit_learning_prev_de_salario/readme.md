@@ -1,0 +1,1 @@
+modelo de previsão de salários usando a bibliotea scikit-learning

@@ -1,0 +1,1 @@
+modelo de estudo da relação de PIB per capita de um país com sua quantidade de celulares usando regressão linear da biblioteca statsmodels.

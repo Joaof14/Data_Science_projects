@@ -1,0 +1,1 @@
+Estudo dos dados históricos de concentração do CO2 na atmosfera através de séries temporais com uso da biblioteca statsmodels

@@ -1,0 +1,1 @@
+Projetos visando aprendizado de conceitos tóricos e práticos da Ciência de Dados e áreas correlatas através de linguagens de programação.
