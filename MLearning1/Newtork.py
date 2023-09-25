@@ -19,13 +19,15 @@ class Network:
         self.weights = [np.random.rand(y,1) for y in self.sizes[1:]]
         self.biases = [np.random.rand(y,x)/np.sqrt(x) for x,y in zip(self.sizes[:-1], self.sizes[:1])]
 
-    def feedforward(self,z):
+    def feedforward(self,a):
         for w,b in self.weights, self.biases:
             a = ativFunc(np.dot(a,w) + b)
         return a
     
-    def train(self, eta, epochs, training_data, test_data):
-        pass
+    def train(self, eta, epochs, training_data, test_data, E):
+        for epoch in epochs:
+            for x,y in train_X, train_y:
+                pass
 
 
     def backprop(self):
