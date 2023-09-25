@@ -24,8 +24,9 @@ class Network:
             a = ativFunc(np.dot(a,w) + b)
         return a
     
-    def sgd(self):
+    def train(self, eta, epochs, training_data, test_data):
         pass
+
 
     def backprop(self):
         pass
